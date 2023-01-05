@@ -8,21 +8,20 @@
 }
 
 .btn-primary {
-    height: 64px;
     color: white;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px;
+    padding: 10px 30px;
     background: #FD6E0A;
     border-radius: 5px;
 }
 
 .header {
-
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    padding-left: ;
 
 }
 
@@ -30,7 +29,8 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px
+    margin: 0px 0px 50px 200px;
+    padding-top: 5px;
 }
 
 .nav-titel {
@@ -51,7 +51,7 @@ nav li {
 /* Banner styles */
 .banner {
     display: flex;
-    margin: 0 200px;
+    margin: 0 10px 0 200px;
     align-items: center;
 }
 
@@ -74,6 +74,12 @@ nav li {
 
 }
 
+.banner-image {
+    width: 584px;
+    height: 676px;
+
+}
+
 /* main section */
 main {
     max-width: 1140px;
@@ -82,26 +88,25 @@ main {
 
 /* about section style */
 .about {
-    margin-top: 130px;
+    margin-top: 20px;
     background-color: #FFF8F3;
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 50px 100px;
     text-align: center;
 
 
 }
 
 .section-titel {
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 35px;
 }
 
-.about-description {
-
-    background-color: #757575;
+.section-description {
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .about-info-container {
@@ -112,10 +117,133 @@ main {
 
 .about .info-titel {
     font-size: 20px;
+    font-weight: 500;
     color: #757575;
 }
 
 .info-description {
     font-weight: 700;
     font-size: 20px;
-    color: #474747;}
+    color: #474747;
+}
+
+/* about me section */
+
+.skills-section-container {
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+.what-i-do {
+    margin-top: 5px;
+    padding: 200px;
+}
+
+/* skill cards */
+.skill-container {
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skill {
+    width: 249px;
+    height: auto ;
+    padding: 20px 10px 30px 30px;
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin: 10px;
+
+}
+.skill img{
+    
+}
+.skill-titel{
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill-description{
+    text-align: justify;
+}
+
+/* resume contents style */
+.resume-content-container{
+    display: flex;
+    gap: 24pc;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.resume-item{
+    padding: 10px 0px;
+}
+.content-title{
+    font-weight: 800;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 730;
+    font-size: 25px;
+    
+}
+.resume .resume-subtitle{
+    color: #757575;
+    font-weight: 600;
+    font-size: 17px;
+}
+.resume .resume-description{
+    text-align: justify;
+    
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+
+} 
+
+.download-button{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Footer style */
+
+.contact{
+    
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.socials .section-titel{
+    text-align: left;
+    
+}
+.links{
+    padding-top: 20px;
+}
+.links a{
+   margin-right: 50px;
+}
+.contact-form{
+    padding-top: 10px;
+}
+
+.contact input[type="text"], input[type="email"]{
+    width: 461px;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 5px;
+}
+.contact  textarea{
+    width: 100%;
+    padding: 20px 30px;
+    border: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
