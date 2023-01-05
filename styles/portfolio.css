@@ -15,6 +15,14 @@
     background: #FD6E0A;
     border-radius: 5px;
 }
+.btn-secondary {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;    
+    border: 1px solid #FD6E0A;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
 
 .header {
     background: #FFF8F3;
